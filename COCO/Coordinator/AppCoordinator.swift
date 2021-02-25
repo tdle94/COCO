@@ -12,17 +12,11 @@ class AppCoordinator: Coordinator {
     let window: UIWindow
     let container: Container
     
-    var currentView: UIViewController? {
-        get {
-            return window.rootViewController
-        }
-        set {
-            self.window.rootViewController = newValue
-        }
-    }
+    var currentView: UIViewController?
     
     init(window: UIWindow, container: Container) {
         self.window = window
+        self.window.rootViewController = UINavigationController(rootViewController: container.resolve(MainView.self)!)
         self.container = container
     }
     
