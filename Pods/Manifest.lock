@@ -43,6 +43,9 @@ PODS:
   - RxSwiftUtilities (2.1.0):
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
   - SwiftLint (0.42.0)
   - Swinject (2.7.1)
 
@@ -62,6 +65,7 @@ DEPENDENCIES:
   - RxSwift
   - RxSwiftExt
   - RxSwiftUtilities
+  - SDWebImage
   - SwiftLint
   - Swinject
 
@@ -84,6 +88,7 @@ SPEC REPOS:
     - RxSwift
     - RxSwiftExt
     - RxSwiftUtilities
+    - SDWebImage
     - SwiftLint
     - Swinject
 
@@ -105,9 +110,10 @@ SPEC CHECKSUMS:
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   RxSwiftExt: 01f8ecbeeb355698e9c75365ebe908b00dacf45d
   RxSwiftUtilities: b486df7454cc867c3ea626ce24110511159e7044
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
 
-PODFILE CHECKSUM: 19a245b897673829db537911d064cdfdefef05a0
+PODFILE CHECKSUM: e84d009e699f8e2a5e7dd5e287125acde143fe4c
 
 COCOAPODS: 1.9.1
