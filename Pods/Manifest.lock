@@ -1,0 +1,113 @@
+PODS:
+  - Alamofire (4.9.1)
+  - KIF (3.8.0):
+    - KIF/Core (= 3.8.0)
+  - KIF/Core (3.8.0)
+  - KIF/IdentifierTests (3.8.0):
+    - KIF/Core
+  - lottie-ios (3.1.9)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - Nimble (9.0.0)
+  - Quick (3.0.0)
+  - R.swift (5.3.1):
+    - R.swift.Library (~> 5.3.0)
+  - R.swift.Library (5.3.0)
+  - ReachabilitySwift (5.0.0)
+  - Result (4.1.0)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - RxBlocking (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxGesture (2.2.0):
+    - RxCocoa (~> 4.5)
+    - RxSwift (~> 4.5)
+  - RxSwift (4.5.0)
+  - RxSwiftExt (3.4.0):
+    - RxSwiftExt/Core (= 3.4.0)
+    - RxSwiftExt/RxCocoa (= 3.4.0)
+  - RxSwiftExt/Core (3.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwiftExt/RxCocoa (3.4.0):
+    - RxCocoa (~> 4.0)
+    - RxSwiftExt/Core
+  - RxSwiftUtilities (2.1.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - SwiftLint (0.42.0)
+  - Swinject (2.7.1)
+
+DEPENDENCIES:
+  - KIF
+  - KIF/IdentifierTests
+  - lottie-ios
+  - Moya/RxSwift
+  - Nimble
+  - Quick
+  - R.swift
+  - ReachabilitySwift
+  - Reusable
+  - RxBlocking
+  - RxCocoa
+  - RxGesture
+  - RxSwift
+  - RxSwiftExt
+  - RxSwiftUtilities
+  - SwiftLint
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - KIF
+    - lottie-ios
+    - Moya
+    - Nimble
+    - Quick
+    - R.swift
+    - R.swift.Library
+    - ReachabilitySwift
+    - Result
+    - Reusable
+    - RxBlocking
+    - RxCocoa
+    - RxGesture
+    - RxSwift
+    - RxSwiftExt
+    - RxSwiftUtilities
+    - SwiftLint
+    - Swinject
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  KIF: e4f9e59e48879e28e00883db063e47b40a9bb3a3
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Nimble: 3b4ec3fd40f1dc178058e0981107721c615643d8
+  Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
+  R.swift: 56ec7e3aef34b9eee47a659e42462db2c1cc5ac3
+  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  RxBlocking: 79413e4d916f44bb3e113c5b2cc059e36fe58910
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxGesture: c1b7bf17166b0ef9d642a9510f8bac5785f18990
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  RxSwiftExt: 01f8ecbeeb355698e9c75365ebe908b00dacf45d
+  RxSwiftUtilities: b486df7454cc867c3ea626ce24110511159e7044
+  SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+
+PODFILE CHECKSUM: 19a245b897673829db537911d064cdfdefef05a0
+
+COCOAPODS: 1.9.1
