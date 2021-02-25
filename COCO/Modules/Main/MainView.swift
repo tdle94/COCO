@@ -8,9 +8,15 @@
 import UIKit
 
 class MainView: UIViewController {
+    
+    let searchController: UISearchController = UISearchController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        definesPresentationContext = true
+        searchController.hidesNavigationBarDuringPresentation = false
+        searchController.obscuresBackgroundDuringPresentation = false
+        navigationItem.titleView = searchController.searchBar
     }
     
     init() {
