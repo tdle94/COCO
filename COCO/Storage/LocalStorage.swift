@@ -12,5 +12,5 @@ protocol LocalStorage: class {
     var categoryIds: [Int] { get set }
     var nextIdsPage: [Int] { get }
     
-    func incrementPage()
+    func incrementIdPage()
 }

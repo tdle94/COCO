@@ -54,7 +54,7 @@ class LocalSotrageImplementation: LocalStorage {
         userDefaults.register(defaults: [LocalStorageKeys.categoryIds: []])
     }
     
-    func incrementPage() {
+    func incrementIdPage() {
         userDefaults.setValue(currentPage + 1, forKey: LocalStorageKeys.currentPage)
     }
     
