@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
+  - Differentiator (3.1.0)
   - KIF (3.8.0):
     - KIF/Core (= 3.8.0)
   - KIF/Core (3.8.0)
@@ -28,6 +29,10 @@ PODS:
     - RxSwift (>= 4.4.2, ~> 4.4)
   - RxCocoa (4.5.0):
     - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
   - RxGesture (2.2.0):
     - RxCocoa (~> 4.5)
     - RxSwift (~> 4.5)
@@ -61,6 +66,7 @@ DEPENDENCIES:
   - Reusable
   - RxBlocking
   - RxCocoa
+  - RxDataSources
   - RxGesture
   - RxSwift
   - RxSwiftExt
@@ -72,6 +78,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Differentiator
     - KIF
     - lottie-ios
     - Moya
@@ -84,6 +91,7 @@ SPEC REPOS:
     - Reusable
     - RxBlocking
     - RxCocoa
+    - RxDataSources
     - RxGesture
     - RxSwift
     - RxSwiftExt
@@ -94,6 +102,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
   KIF: e4f9e59e48879e28e00883db063e47b40a9bb3a3
   lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
@@ -106,6 +115,7 @@ SPEC CHECKSUMS:
   Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
   RxBlocking: 79413e4d916f44bb3e113c5b2cc059e36fe58910
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
   RxGesture: c1b7bf17166b0ef9d642a9510f8bac5785f18990
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   RxSwiftExt: 01f8ecbeeb355698e9c75365ebe908b00dacf45d
@@ -114,6 +124,6 @@ SPEC CHECKSUMS:
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
 
-PODFILE CHECKSUM: e84d009e699f8e2a5e7dd5e287125acde143fe4c
+PODFILE CHECKSUM: 6ec58896a6ca8df6a4fae4e906905c8253a0fdba
 
 COCOAPODS: 1.9.1
