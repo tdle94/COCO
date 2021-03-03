@@ -16,6 +16,7 @@ def common_pods
   pod 'lottie-ios'
   pod 'RxSwiftExt'
   pod 'SDWebImage'
+  pod 'RxDataSources'
 end
 
 target 'COCO' do
