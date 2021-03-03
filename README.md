@@ -2,6 +2,7 @@
 
 ## How to run project
 - xcode 12.4
+- git clone <path_to_bundle_file>
 - pod install
 - run from simulator or device
 
@@ -18,7 +19,7 @@
 - MVVM (to handle data request from user interaction so that we don't clutter the ViewController)
 
 ## TODO
-- Test case
+- Test cases
 - We can refactor further to achieve cleaner code
 
 ## High Level App Design
