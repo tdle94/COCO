@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="9qr-Xv-YYQ" customClass="COCOHeaderSupplementaryView" customModule="COCO" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="493" height="126"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o9M-hk-Bv9">
+                    <rect key="frame" x="0.0" y="68" width="493" height="0.0"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Gc-hC-zl0">
+                            <rect key="frame" x="0.0" y="0.0" width="493" height="0.0"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="zUl-Pf-n8V"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="o9M-hk-Bv9" firstAttribute="centerY" secondItem="zUl-Pf-n8V" secondAttribute="centerY" id="Pek-fc-5aY"/>
+                <constraint firstItem="o9M-hk-Bv9" firstAttribute="leading" secondItem="zUl-Pf-n8V" secondAttribute="leading" id="Z0M-fe-v3L"/>
+                <constraint firstItem="zUl-Pf-n8V" firstAttribute="trailing" secondItem="o9M-hk-Bv9" secondAttribute="trailing" id="vzR-p3-Bjl"/>
+            </constraints>
+            <connections>
+                <outlet property="totalImageResultLabel" destination="1Gc-hC-zl0" id="42h-gt-qwY"/>
+            </connections>
+            <point key="canvasLocation" x="-412.31884057971018" y="-20.089285714285712"/>
+        </collectionReusableView>
+    </objects>
+</document>
