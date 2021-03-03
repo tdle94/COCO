@@ -57,7 +57,7 @@ class MainViewModel {
             .elements()
             .asObservable()
             .do(onNext: { ids in
-                localStorage.categoryIds = ids
+                localStorage.imageIds = ids
                 if ids.isEmpty {
                     self.hideEndOfResult.onNext(true)
                     self.isLoading.onNext(false)
@@ -66,7 +66,7 @@ class MainViewModel {
             })
             .filter { !$0.isEmpty }
             .flatMapLatest { _ -> Observable<Event<PrimitiveSequence<SingleTrait, (Array<ImageData>, Array<ImageCaption>, Array<ImageInstance>)>>> in
-                let ids = localStorage.nextIdsPage
+                let ids = localStorage.nextImageIdsPage
 
                 return Single.zip(Single.just(repository.getImageData(ids: ids)),
                                   Single.just(repository.getImageCaption(ids: ids)),
@@ -97,7 +97,7 @@ class MainViewModel {
                         
                         localStorage.incrementIdPage()
                         
-                        self.totalImageResultLabel.onNext(String(localStorage.categoryIds.count) + " results")
+                        self.totalImageResultLabel.onNext(String(localStorage.imageIds.count) + " results")
                         self.isLoading.onNext(false)
                         self.imageResults
                             .onNext([.init(model: "coco", items: imageResults)])
@@ -114,7 +114,7 @@ class MainViewModel {
                 self.isLoading.onNext(true)
             })
             .subscribe { _ in
-                let ids = localStorage.nextIdsPage
+                let ids = localStorage.nextImageIdsPage
 
                 Single
                     .zip(Single.just(repository.getImageData(ids: ids)),

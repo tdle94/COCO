@@ -4,7 +4,7 @@
 //
 //  Created by Tuyen Le on 2/25/21.
 //
-//  We will paginate categories ID for 5 ids per request/page. We don't want to
+//  We will paginate image IDs for 5 ids per request/page. We don't want to
 //  display everything in the collection view because that will slow down the app
 
 import Foundation
@@ -18,7 +18,7 @@ class LocalSotrageImplementation: LocalStorage {
         return userDefaults.integer(forKey: LocalStorageKeys.currentPage)
     }
     
-    var categoryIds: [Int] {
+    var imageIds: [Int] {
         get {
             return userDefaults.array(forKey: LocalStorageKeys.categoryIds) as? [Int] ?? []
         }
@@ -28,7 +28,7 @@ class LocalSotrageImplementation: LocalStorage {
         }
     }
     
-    var nextIdsPage: [Int] {
+    var nextImageIdsPage: [Int] {
         guard
             let ids = userDefaults.array(forKey: LocalStorageKeys.categoryIds) as? [Int],
             !ids.isEmpty,
