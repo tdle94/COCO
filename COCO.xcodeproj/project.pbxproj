@@ -188,10 +188,10 @@
 			children = (
 				348A9E2925E8B552005B7D73 /* Storage */,
 				348A9E2325E8833B005B7D73 /* Extensions */,
-				348A9E1825E87AC1005B7D73 /* Model */,
-				348A9E0F25E87A6D005B7D73 /* Repositories */,
+				348A9E1825E87AC1005B7D73 /* COCO Model */,
+				348A9E0F25E87A6D005B7D73 /* COCO Repository */,
 				348A9DFF25E86984005B7D73 /* Utils */,
-				348A9DE725E8692D005B7D73 /* Service */,
+				348A9DE725E8692D005B7D73 /* COCO API Service */,
 				348A9DB425E8522E005B7D73 /* Coordinator */,
 				348A9DA825E85123005B7D73 /* Container */,
 				348A9D9C25E85017005B7D73 /* Modules */,
@@ -225,7 +225,7 @@
 		348A9D9C25E85017005B7D73 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				34AC94B325ED442E00B13001 /* Search */,
+				34AC94B325ED442E00B13001 /* COCO Category Search Controller */,
 				34A290CF25E9667300C9DFFA /* Custom Views */,
 				348A9D9D25E8502C005B7D73 /* Main */,
 			);
@@ -259,14 +259,14 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
-		348A9DE725E8692D005B7D73 /* Service */ = {
+		348A9DE725E8692D005B7D73 /* COCO API Service */ = {
 			isa = PBXGroup;
 			children = (
 				348A9DE825E86939005B7D73 /* COCORouter.swift */,
 				348A9DF025E86940005B7D73 /* COCOService.swift */,
 				348A9DF525E8694F005B7D73 /* COCOServiceImplmentation.swift */,
 			);
-			path = Service;
+			path = "COCO API Service";
 			sourceTree = "<group>";
 		};
 		348A9DFF25E86984005B7D73 /* Utils */ = {
@@ -277,21 +277,21 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		348A9E0F25E87A6D005B7D73 /* Repositories */ = {
+		348A9E0F25E87A6D005B7D73 /* COCO Repository */ = {
 			isa = PBXGroup;
 			children = (
 				348A9E1025E87A7C005B7D73 /* COCORepository.swift */,
 				348A9E1E25E87CD5005B7D73 /* COCORepositoryImplementation.swift */,
 			);
-			path = Repositories;
+			path = "COCO Repository";
 			sourceTree = "<group>";
 		};
-		348A9E1825E87AC1005B7D73 /* Model */ = {
+		348A9E1825E87AC1005B7D73 /* COCO Model */ = {
 			isa = PBXGroup;
 			children = (
 				348A9E1925E87AD1005B7D73 /* ImageResponse.swift */,
 			);
-			path = Model;
+			path = "COCO Model";
 			sourceTree = "<group>";
 		};
 		348A9E2325E8833B005B7D73 /* Extensions */ = {
@@ -340,13 +340,13 @@
 			path = Xibs;
 			sourceTree = "<group>";
 		};
-		34AC94B325ED442E00B13001 /* Search */ = {
+		34AC94B325ED442E00B13001 /* COCO Category Search Controller */ = {
 			isa = PBXGroup;
 			children = (
 				34AC94AE25ED442100B13001 /* COCOSearchController.swift */,
 				34AC94B425ED444600B13001 /* COCOSearchResultTableController.swift */,
 			);
-			path = Search;
+			path = "COCO Category Search Controller";
 			sourceTree = "<group>";
 		};
 		4F4A7B85078B4FD63CBE3D39 /* Pods */ = {
