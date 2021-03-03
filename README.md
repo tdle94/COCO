@@ -3,7 +3,7 @@
 How to run project:
 - xcode 12.4
 - pod install
-- run from simulator
+- run from simulator or device
 
 Core Framework I use:
 - RxSwift (For data binding)
@@ -17,6 +17,6 @@ Common Design Pattern I use:
 - Repository (to provide data abstraction)
 - MVVM (to handle data request from user interaction so that we don't clutter the ViewController)
 
-High Level App Design
+High Level App Design:
 
 ![alt text](https://i.ibb.co/RcRsGPZ/Flowchart.png)
