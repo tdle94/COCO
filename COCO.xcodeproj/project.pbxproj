@@ -19,6 +19,33 @@
 		348A9DAA25E8512F005B7D73 /* DefaultContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9DA925E8512F005B7D73 /* DefaultContainer.swift */; };
 		348A9DB625E8523B005B7D73 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9DB525E8523B005B7D73 /* AppCoordinator.swift */; };
 		348A9DBE25E8524D005B7D73 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9DBD25E8524D005B7D73 /* Coordinator.swift */; };
+		348A9DD725E864B2005B7D73 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9DD625E864B2005B7D73 /* MainViewModel.swift */; };
+		348A9DE925E86939005B7D73 /* COCORouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9DE825E86939005B7D73 /* COCORouter.swift */; };
+		348A9DF125E86940005B7D73 /* COCOService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9DF025E86940005B7D73 /* COCOService.swift */; };
+		348A9DF625E8694F005B7D73 /* COCOServiceImplmentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9DF525E8694F005B7D73 /* COCOServiceImplmentation.swift */; };
+		348A9DFB25E8697B005B7D73 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9DFA25E8697B005B7D73 /* Constant.swift */; };
+		348A9E1125E87A7C005B7D73 /* COCORepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9E1025E87A7C005B7D73 /* COCORepository.swift */; };
+		348A9E1A25E87AD1005B7D73 /* ImageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9E1925E87AD1005B7D73 /* ImageResponse.swift */; };
+		348A9E1F25E87CD5005B7D73 /* COCORepositoryImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9E1E25E87CD5005B7D73 /* COCORepositoryImplementation.swift */; };
+		348A9E2525E88349005B7D73 /* NSObject+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9E2425E88349005B7D73 /* NSObject+Rx.swift */; };
+		348A9E2B25E8B566005B7D73 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9E2A25E8B566005B7D73 /* LocalStorage.swift */; };
+		348A9E3025E8B68A005B7D73 /* LocalStorageImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A9E2F25E8B68A005B7D73 /* LocalStorageImplementation.swift */; };
+		349EBAC925EE8BC1009C9717 /* COCOCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EBAC825EE8BC1009C9717 /* COCOCollectionView.swift */; };
+		34A290C625E9665E00C9DFFA /* COCOCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A290C525E9665E00C9DFFA /* COCOCollectionViewCell.swift */; };
+		34A290CB25E9666D00C9DFFA /* COCOCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A290CA25E9666D00C9DFFA /* COCOCollectionViewCell.xib */; };
+		34A290F325E97D4000C9DFFA /* UICollectionViewLayout+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A290F225E97D4000C9DFFA /* UICollectionViewLayout+.swift */; };
+		34A290FB25E99D7700C9DFFA /* UIScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A290FA25E99D7700C9DFFA /* UIScrollView+.swift */; };
+		34A2910025E99DA200C9DFFA /* COCOFooterSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A290FF25E99DA200C9DFFA /* COCOFooterSupplementaryView.swift */; };
+		34A2910525E99DB600C9DFFA /* COCOFooterSupplementaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A2910425E99DB600C9DFFA /* COCOFooterSupplementaryView.xib */; };
+		34A37CC925EFDBE7009D8EC7 /* COCOHeaderSupplementaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A37CC825EFDBE7009D8EC7 /* COCOHeaderSupplementaryView.xib */; };
+		34A37CD125EFDC5E009D8EC7 /* COCOHeaderSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A37CD025EFDC5E009D8EC7 /* COCOHeaderSupplementaryView.swift */; };
+		34A554E325EAC770003126B9 /* COCOCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A554E225EAC770003126B9 /* COCOCategoryCollectionViewCell.xib */; };
+		34A554E825EAC780003126B9 /* COCOCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A554E725EAC780003126B9 /* COCOCategoryCollectionViewCell.swift */; };
+		34A554F325EADBE8003126B9 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A554F225EADBE8003126B9 /* UIImage+.swift */; };
+		34AC94AF25ED442100B13001 /* COCOSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AC94AE25ED442100B13001 /* COCOSearchController.swift */; };
+		34AC94B525ED444600B13001 /* COCOSearchResultTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AC94B425ED444600B13001 /* COCOSearchResultTableController.swift */; };
+		34AC94C525ED504600B13001 /* COCOCategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34AC94C425ED504600B13001 /* COCOCategoryTableViewCell.xib */; };
+		34AC94CD25ED53DD00B13001 /* COCOCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AC94CC25ED53DD00B13001 /* COCOCategoryTableViewCell.swift */; };
 		466D534F32393947A2CC76C9 /* Pods_COCO_COCOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB150CF64465FD26B4FB2E2 /* Pods_COCO_COCOUITests.framework */; };
 		CA74DC829FC416C3D7254450 /* Pods_COCOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4204A37BABB890517E2A762E /* Pods_COCOTests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +88,33 @@
 		348A9DA925E8512F005B7D73 /* DefaultContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultContainer.swift; sourceTree = "<group>"; };
 		348A9DB525E8523B005B7D73 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		348A9DBD25E8524D005B7D73 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		348A9DD625E864B2005B7D73 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		348A9DE825E86939005B7D73 /* COCORouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCORouter.swift; sourceTree = "<group>"; };
+		348A9DF025E86940005B7D73 /* COCOService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCOService.swift; sourceTree = "<group>"; };
+		348A9DF525E8694F005B7D73 /* COCOServiceImplmentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCOServiceImplmentation.swift; sourceTree = "<group>"; };
+		348A9DFA25E8697B005B7D73 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		348A9E1025E87A7C005B7D73 /* COCORepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCORepository.swift; sourceTree = "<group>"; };
+		348A9E1925E87AD1005B7D73 /* ImageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResponse.swift; sourceTree = "<group>"; };
+		348A9E1E25E87CD5005B7D73 /* COCORepositoryImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCORepositoryImplementation.swift; sourceTree = "<group>"; };
+		348A9E2425E88349005B7D73 /* NSObject+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Rx.swift"; sourceTree = "<group>"; };
+		348A9E2A25E8B566005B7D73 /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		348A9E2F25E8B68A005B7D73 /* LocalStorageImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageImplementation.swift; sourceTree = "<group>"; };
+		349EBAC825EE8BC1009C9717 /* COCOCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCOCollectionView.swift; sourceTree = "<group>"; };
+		34A290C525E9665E00C9DFFA /* COCOCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCOCollectionViewCell.swift; sourceTree = "<group>"; };
+		34A290CA25E9666D00C9DFFA /* COCOCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COCOCollectionViewCell.xib; sourceTree = "<group>"; };
+		34A290F225E97D4000C9DFFA /* UICollectionViewLayout+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewLayout+.swift"; sourceTree = "<group>"; };
+		34A290FA25E99D7700C9DFFA /* UIScrollView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+.swift"; sourceTree = "<group>"; };
+		34A290FF25E99DA200C9DFFA /* COCOFooterSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCOFooterSupplementaryView.swift; sourceTree = "<group>"; };
+		34A2910425E99DB600C9DFFA /* COCOFooterSupplementaryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COCOFooterSupplementaryView.xib; sourceTree = "<group>"; };
+		34A37CC825EFDBE7009D8EC7 /* COCOHeaderSupplementaryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COCOHeaderSupplementaryView.xib; sourceTree = "<group>"; };
+		34A37CD025EFDC5E009D8EC7 /* COCOHeaderSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCOHeaderSupplementaryView.swift; sourceTree = "<group>"; };
+		34A554E225EAC770003126B9 /* COCOCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COCOCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		34A554E725EAC780003126B9 /* COCOCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCOCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		34A554F225EADBE8003126B9 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		34AC94AE25ED442100B13001 /* COCOSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCOSearchController.swift; sourceTree = "<group>"; };
+		34AC94B425ED444600B13001 /* COCOSearchResultTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCOSearchResultTableController.swift; sourceTree = "<group>"; };
+		34AC94C425ED504600B13001 /* COCOCategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = COCOCategoryTableViewCell.xib; sourceTree = "<group>"; };
+		34AC94CC25ED53DD00B13001 /* COCOCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COCOCategoryTableViewCell.swift; sourceTree = "<group>"; };
 		3557AA4AB0BA8FB971B08CF9 /* Pods-COCO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COCO.release.xcconfig"; path = "Target Support Files/Pods-COCO/Pods-COCO.release.xcconfig"; sourceTree = "<group>"; };
 		4204A37BABB890517E2A762E /* Pods_COCOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COCOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E29A6D12BB835D5E78E5A70 /* Pods-COCO-COCOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COCO-COCOUITests.release.xcconfig"; path = "Target Support Files/Pods-COCO-COCOUITests/Pods-COCO-COCOUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +186,12 @@
 		348A9D0D25E84C84005B7D73 /* COCO */ = {
 			isa = PBXGroup;
 			children = (
+				348A9E2925E8B552005B7D73 /* Storage */,
+				348A9E2325E8833B005B7D73 /* Extensions */,
+				348A9E1825E87AC1005B7D73 /* Model */,
+				348A9E0F25E87A6D005B7D73 /* Repositories */,
+				348A9DFF25E86984005B7D73 /* Utils */,
+				348A9DE725E8692D005B7D73 /* Service */,
 				348A9DB425E8522E005B7D73 /* Coordinator */,
 				348A9DA825E85123005B7D73 /* Container */,
 				348A9D9C25E85017005B7D73 /* Modules */,
@@ -165,6 +225,8 @@
 		348A9D9C25E85017005B7D73 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				34AC94B325ED442E00B13001 /* Search */,
+				34A290CF25E9667300C9DFFA /* Custom Views */,
 				348A9D9D25E8502C005B7D73 /* Main */,
 			);
 			path = Modules;
@@ -175,6 +237,7 @@
 			children = (
 				348A9D9E25E8503F005B7D73 /* MainView.xib */,
 				348A9DA325E85047005B7D73 /* MainView.swift */,
+				348A9DD625E864B2005B7D73 /* MainViewModel.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -194,6 +257,96 @@
 				348A9DBD25E8524D005B7D73 /* Coordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		348A9DE725E8692D005B7D73 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				348A9DE825E86939005B7D73 /* COCORouter.swift */,
+				348A9DF025E86940005B7D73 /* COCOService.swift */,
+				348A9DF525E8694F005B7D73 /* COCOServiceImplmentation.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		348A9DFF25E86984005B7D73 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				348A9DFA25E8697B005B7D73 /* Constant.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		348A9E0F25E87A6D005B7D73 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				348A9E1025E87A7C005B7D73 /* COCORepository.swift */,
+				348A9E1E25E87CD5005B7D73 /* COCORepositoryImplementation.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		348A9E1825E87AC1005B7D73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				348A9E1925E87AD1005B7D73 /* ImageResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		348A9E2325E8833B005B7D73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				348A9E2425E88349005B7D73 /* NSObject+Rx.swift */,
+				34A290F225E97D4000C9DFFA /* UICollectionViewLayout+.swift */,
+				34A290FA25E99D7700C9DFFA /* UIScrollView+.swift */,
+				34A554F225EADBE8003126B9 /* UIImage+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		348A9E2925E8B552005B7D73 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				348A9E2A25E8B566005B7D73 /* LocalStorage.swift */,
+				348A9E2F25E8B68A005B7D73 /* LocalStorageImplementation.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		34A290CF25E9667300C9DFFA /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				34A37CD525F00641009D8EC7 /* Xibs */,
+				349EBAC825EE8BC1009C9717 /* COCOCollectionView.swift */,
+				34AC94CC25ED53DD00B13001 /* COCOCategoryTableViewCell.swift */,
+				34A554E725EAC780003126B9 /* COCOCategoryCollectionViewCell.swift */,
+				34A290C525E9665E00C9DFFA /* COCOCollectionViewCell.swift */,
+				34A290FF25E99DA200C9DFFA /* COCOFooterSupplementaryView.swift */,
+				34A37CD025EFDC5E009D8EC7 /* COCOHeaderSupplementaryView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		34A37CD525F00641009D8EC7 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				34AC94C425ED504600B13001 /* COCOCategoryTableViewCell.xib */,
+				34A554E225EAC770003126B9 /* COCOCategoryCollectionViewCell.xib */,
+				34A290CA25E9666D00C9DFFA /* COCOCollectionViewCell.xib */,
+				34A2910425E99DB600C9DFFA /* COCOFooterSupplementaryView.xib */,
+				34A37CC825EFDBE7009D8EC7 /* COCOHeaderSupplementaryView.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		34AC94B325ED442E00B13001 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				34AC94AE25ED442100B13001 /* COCOSearchController.swift */,
+				34AC94B425ED444600B13001 /* COCOSearchResultTableController.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		4F4A7B85078B4FD63CBE3D39 /* Pods */ = {
@@ -318,7 +471,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				348A9D1B25E84C85005B7D73 /* LaunchScreen.storyboard in Resources */,
+				34A37CC925EFDBE7009D8EC7 /* COCOHeaderSupplementaryView.xib in Resources */,
+				34A2910525E99DB600C9DFFA /* COCOFooterSupplementaryView.xib in Resources */,
 				348A9D9F25E8503F005B7D73 /* MainView.xib in Resources */,
+				34A290CB25E9666D00C9DFFA /* COCOCollectionViewCell.xib in Resources */,
+				34AC94C525ED504600B13001 /* COCOCategoryTableViewCell.xib in Resources */,
+				34A554E325EAC770003126B9 /* COCOCategoryCollectionViewCell.xib in Resources */,
 				348A9D1825E84C85005B7D73 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,12 +605,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34AC94B525ED444600B13001 /* COCOSearchResultTableController.swift in Sources */,
+				348A9E1A25E87AD1005B7D73 /* ImageResponse.swift in Sources */,
+				348A9DE925E86939005B7D73 /* COCORouter.swift in Sources */,
+				348A9DD725E864B2005B7D73 /* MainViewModel.swift in Sources */,
+				34AC94AF25ED442100B13001 /* COCOSearchController.swift in Sources */,
 				348A9DA425E85047005B7D73 /* MainView.swift in Sources */,
+				349EBAC925EE8BC1009C9717 /* COCOCollectionView.swift in Sources */,
 				348A9D0F25E84C84005B7D73 /* AppDelegate.swift in Sources */,
+				34A554F325EADBE8003126B9 /* UIImage+.swift in Sources */,
 				348A9DBE25E8524D005B7D73 /* Coordinator.swift in Sources */,
+				348A9E1125E87A7C005B7D73 /* COCORepository.swift in Sources */,
+				348A9DF625E8694F005B7D73 /* COCOServiceImplmentation.swift in Sources */,
+				34A290F325E97D4000C9DFFA /* UICollectionViewLayout+.swift in Sources */,
+				348A9DF125E86940005B7D73 /* COCOService.swift in Sources */,
+				34A554E825EAC780003126B9 /* COCOCategoryCollectionViewCell.swift in Sources */,
+				348A9E1F25E87CD5005B7D73 /* COCORepositoryImplementation.swift in Sources */,
+				34AC94CD25ED53DD00B13001 /* COCOCategoryTableViewCell.swift in Sources */,
+				34A2910025E99DA200C9DFFA /* COCOFooterSupplementaryView.swift in Sources */,
 				348A9DB625E8523B005B7D73 /* AppCoordinator.swift in Sources */,
+				348A9E3025E8B68A005B7D73 /* LocalStorageImplementation.swift in Sources */,
+				348A9DFB25E8697B005B7D73 /* Constant.swift in Sources */,
 				348A9D1125E84C84005B7D73 /* SceneDelegate.swift in Sources */,
+				348A9E2B25E8B566005B7D73 /* LocalStorage.swift in Sources */,
 				348A9DAA25E8512F005B7D73 /* DefaultContainer.swift in Sources */,
+				34A290FB25E99D7700C9DFFA /* UIScrollView+.swift in Sources */,
+				34A290C625E9665E00C9DFFA /* COCOCollectionViewCell.swift in Sources */,
+				348A9E2525E88349005B7D73 /* NSObject+Rx.swift in Sources */,
+				34A37CD125EFDC5E009D8EC7 /* COCOHeaderSupplementaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +804,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTUTGY3V82;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = COCO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -643,6 +825,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTUTGY3V82;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = COCO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -661,7 +845,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTUTGY3V82;
 				INFOPLIST_FILE = COCOTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -683,7 +869,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTUTGY3V82;
 				INFOPLIST_FILE = COCOTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -704,7 +892,9 @@
 			baseConfigurationReference = 56E8EBC76640BB29472F3842 /* Pods-COCO-COCOUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTUTGY3V82;
 				INFOPLIST_FILE = COCOUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -724,7 +914,9 @@
 			baseConfigurationReference = 4E29A6D12BB835D5E78E5A70 /* Pods-COCO-COCOUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTUTGY3V82;
 				INFOPLIST_FILE = COCOUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
