@@ -7,7 +7,6 @@
 
 import RxSwift
 import RxCocoa
-import RxSwiftUtilities
 import RxSwiftExt
 import RxDataSources
 
@@ -68,7 +67,6 @@ class MainViewModel {
             .filter { !$0.isEmpty }
             .flatMapLatest { _ -> Observable<Event<PrimitiveSequence<SingleTrait, (Array<ImageData>, Array<ImageCaption>, Array<ImageInstance>)>>> in
                 let ids = localStorage.nextIdsPage
-                localStorage.incrementPage()
 
                 return Single.zip(Single.just(repository.getImageData(ids: ids)),
                                   Single.just(repository.getImageCaption(ids: ids)),
@@ -96,6 +94,9 @@ class MainViewModel {
                         let imageResults = self.createImageResultFrom(imageDatas: imageDatas,
                                                                       imageCaptions: imageCaptions,
                                                                       imageInstances: imageInstances)
+                        
+                        localStorage.incrementIdPage()
+                        
                         self.totalImageResultLabel.onNext(String(localStorage.categoryIds.count) + " results")
                         self.isLoading.onNext(false)
                         self.imageResults
@@ -149,7 +150,7 @@ class MainViewModel {
 
                                 self.isLoading.onNext(false)
                                 
-                                localStorage.incrementPage()
+                                localStorage.incrementIdPage()
                                 self.imageResults
                                     .onNext([.init(model: "coco", items: previousImageResults + imageResults)])
                             })
