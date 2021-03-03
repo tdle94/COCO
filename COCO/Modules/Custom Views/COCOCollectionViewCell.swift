@@ -4,6 +4,8 @@
 //
 //  Created by Tuyen Le on 2/26/21.
 //
+//  Render COCO Image, Image captions & links and Categories for selection
+//  When tap on a category, it will draw that category segmentation
 
 import UIKit
 import SDWebImage
@@ -116,7 +118,7 @@ class COCOCollectionViewCell: UICollectionViewCell {
                 }
             })
 
-        // On first selection, remove all categories except the one selected
+        // On first selection, remove all categories' segmentation except the one selected
         firstCategorySelectDisposable = categoryCollectionView
             .rx
             .itemSelected
@@ -133,7 +135,7 @@ class COCOCollectionViewCell: UICollectionViewCell {
                 }
             })
         
-        // Draw category on subsequent selections
+        // Draw category's segmentation on subsequent selections
         categorySelectDisposable = categoryCollectionView
             .rx
             .itemSelected

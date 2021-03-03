@@ -4,6 +4,7 @@
 //
 //  Created by Tuyen Le on 3/1/21.
 //
+//  Render Category title & image for tableView
 
 import UIKit
 import SDWebImage

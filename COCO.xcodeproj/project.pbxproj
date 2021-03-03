@@ -319,9 +319,9 @@
 			children = (
 				34A37CD525F00641009D8EC7 /* Xibs */,
 				349EBAC825EE8BC1009C9717 /* COCOCollectionView.swift */,
-				34AC94CC25ED53DD00B13001 /* COCOCategoryTableViewCell.swift */,
-				34A554E725EAC780003126B9 /* COCOCategoryCollectionViewCell.swift */,
 				34A290C525E9665E00C9DFFA /* COCOCollectionViewCell.swift */,
+				34A554E725EAC780003126B9 /* COCOCategoryCollectionViewCell.swift */,
+				34AC94CC25ED53DD00B13001 /* COCOCategoryTableViewCell.swift */,
 				34A290FF25E99DA200C9DFFA /* COCOFooterSupplementaryView.swift */,
 				34A37CD025EFDC5E009D8EC7 /* COCOHeaderSupplementaryView.swift */,
 			);

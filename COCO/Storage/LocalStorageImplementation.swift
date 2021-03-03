@@ -4,6 +4,8 @@
 //
 //  Created by Tuyen Le on 2/25/21.
 //
+//  We will paginate categories ID for 5 ids per request/page. We don't want to
+//  display everything in the collection view because that will slow down the app
 
 import Foundation
 

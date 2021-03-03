@@ -4,6 +4,7 @@
 //
 //  Created by Tuyen Le on 2/25/21.
 //
+//  Will handle data request when user select categories and scroll down to load for more
 
 import UIKit
 import RxSwift

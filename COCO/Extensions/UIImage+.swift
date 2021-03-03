@@ -4,6 +4,8 @@
 //
 //  Created by Tuyen Le on 2/27/21.
 //
+//  This class is used to draw category segmentations & save
+//  them in case user want to remove them
 
 import UIKit
 
