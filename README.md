@@ -1,5 +1,10 @@
 # COCO
 
+How to run project:
+- xcode 12.4
+- pod install
+- run from simulator
+
 Core Framework I use:
 - RxSwift (For data binding)
 - Moya (This is a wrapper around Alamofire to abstract away url request & parameters)
